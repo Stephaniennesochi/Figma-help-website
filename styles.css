@@ -33,13 +33,13 @@ a{
     font-size: 21px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 .header{
     background-color: white;
     position: fixed;
     outline: black;
-    border: 3px solid black;
+    border: 2px solid black;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -155,10 +155,26 @@ span{
     display: flex;
     gap: 170px;
 }
+.entire-divs{
+    display: flex;
+    gap: 100px;
+    margin-right: 250px;
+}
 .align-heads{
     font-size: 26px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
+}
+.align-head{
+    font-size: 24;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+
+} 
+.align-p{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    text-align: left;
 }
 .header-three{
     font-size: 36px;
@@ -169,7 +185,7 @@ span{
     font-family: 'Times New Roman', Times, serif;
 }
 .align-button{
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     border: 2px solid black;
     outline: black;
@@ -187,7 +203,7 @@ span{
     background-color: white;
     grid-template-columns: 200px 200px 200px 200px 200px  ;
     grid-template-rows: 150px 150px;
-    gap: 50px;
+    gap: 90px;
 }
 .sub-grid{
     background-color: black;
@@ -198,4 +214,15 @@ span{
     text-align: center;
     font-size: 22px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.grid-img{
+    color: white;
+}
+.sect-four{
+    background-color: black;
+    padding: 40px 30px 100px;
+}
+.div-img{
+    width: 350px;
+    height: 250px;
 }
