@@ -216,7 +216,10 @@ span{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .grid-img{
-    color: white;
+    height: 50px;
+    width: 50px;
+    margin-left: 35%;
+    margin-top: 14px;
 }
 .sect-four{
     background-color: black;
