@@ -146,7 +146,7 @@ span{
     height: 50px;
     width: 200px;
     border-radius: 10px;
-    margin-left: 35%;
+    margin-left: 40%;
 }
 .align-divs{
     text-align: left;
@@ -220,9 +220,39 @@ span{
 }
 .sect-four{
     background-color: black;
-    padding: 40px 30px 100px;
+    padding: 100px 50px 100px;
 }
 .div-img{
     width: 350px;
     height: 250px;
+}
+.black-img{
+    float: right;
+    margin-right: 30px;
+    width: 600px;
+    height: 550px;
+}
+.sect-four > *{
+    color: white;
+}
+.black-h{
+    font-size: 72px;
+    font-family: sans-serif;
+}
+.black-text{
+    font-size: 24px;
+    font-family: serif;
+}
+.white-btn{
+    color: black;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+}
+.black-sub{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
