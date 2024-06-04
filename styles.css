@@ -259,3 +259,22 @@ span{
 .black-sub{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.footer{
+    background-color: white;
+}
+.main-grid{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 250px;
+    gap: 115px;
+    background-color: white;
+}
+.gridd{
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5%;
+    color: white;
+}
+.gridd > *{
+    text-align: center;
+}
