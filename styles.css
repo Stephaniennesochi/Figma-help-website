@@ -264,6 +264,7 @@ span{
 }
 .footer{
     background-color: white;
+    margin-top: 90px;
 }
 .main-grid{
     display: grid;
@@ -271,6 +272,7 @@ span{
     grid-template-rows: 250px;
     gap: 115px;
     background-color: white;
+    margin-top: 70px;
 }
 .gridd{
     background-color: black;
