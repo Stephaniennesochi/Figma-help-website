@@ -38,6 +38,8 @@ a{
 .header{
     background-color: white;
     position: fixed;
+    top: 0;
+    left: 0;
     outline: black;
     border: 2px solid black;
     border-top: none;
@@ -301,7 +303,7 @@ select{
 }
 .main-footer{
     display: flex;
-    gap: 160px;
+    gap: 150px;
 }
 .footer-link{
     margin-top: 100px;
@@ -324,4 +326,12 @@ select{
     margin-bottom: 2%;
     position: static;
     
+}
+.footer-link > p{
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer-link > h3{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
