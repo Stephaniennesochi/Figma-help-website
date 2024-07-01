@@ -337,3 +337,110 @@ select{
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+@media (max-width:600px){
+    .nav-bar{
+        gap: 2px;
+    }
+    .navbar{
+        gap: 30px;
+        margin-top: 9px;
+        width: 45px;
+        height: 2px;
+    }
+    .nav-img{
+        width: 15px;
+        height: 15px;
+    }
+    .navvy{
+        overflow: hidden;
+    }
+    .nav-element{
+        font-size: 14px;
+        margin-left: 2px;
+    }
+    .nav-logo{
+        font-size: 14px;
+        margin-left: 1em;
+        margin-right: 4em;
+    }
+    .first-sect{
+        background-color: #b2aae4;
+        padding: 1px 2px 12px;
+        
+    }
+    .nav-btn{
+        font-size: 14px;
+        height: 30px;
+        width: 90px;
+    }
+    .header-one{
+        font-size: 32px;
+        margin-top: 60px;
+    
+    }
+    .sub-header-one{
+        font-size: 18px;
+    }
+    .cover-img{
+        height: 250px;
+        width: 300px;
+        margin-right: 6em;
+        margin-bottom: 2em;
+    }
+    .entire-sect{
+        margin-left: 5px;
+    }
+    .search-btn{
+       width: 350px; 
+       height: 40px;
+       font-size: 16px;
+    }
+    .btn{
+        font-size: 12px;
+        height: 35px;
+        width: 100px;
+    }
+    .troubleshooting{
+        width: 120px;
+    }
+    .sect-two{
+        background-color: #FFD23F;
+        padding: 40px 40px 100px;
+    }
+    .img-too{
+        height: 200px;
+        width: 350px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    .btn-btn{
+        height: 35px;
+        width: 100px;
+        margin-top: 2em;
+        font-size: 18px;
+    }
+    .header-two{
+        font-size: 30px;
+    
+    }
+    .element-two{
+        font-size: 19px;
+    }
+}
+
+@media (min-width:600px){
+    
+}
+@media (min-width: 768px){
+    
+}
+@media (min-width:992px){
+    .nav-bar,.navvy{
+        display: flex;
+        gap: 20px;
+    }
+   
+}
+@media (min-width:1200px){
+  
+}
