@@ -82,7 +82,7 @@ span{
     height: 400px;
     width: 800px;
 }
-.entire-sect{
+.entire-sect, .entire-sectt{
     margin-left: 90px;
 }
 .search-btn{
@@ -343,7 +343,7 @@ select{
     }
     .navbar{
         gap: 30px;
-        margin-top: 9px;
+        margin-top: 14px;
         width: 45px;
         height: 2px;
     }
@@ -361,7 +361,7 @@ select{
     .nav-logo{
         font-size: 14px;
         margin-left: 1em;
-        margin-right: 4em;
+        margin-right: 9em;
     }
     .first-sect{
         background-color: #b2aae4;
@@ -388,7 +388,7 @@ select{
         margin-bottom: 2em;
     }
     .entire-sect{
-        margin-left: 5px;
+        margin-left: 1.2em;
     }
     .search-btn{
        width: 350px; 
@@ -535,6 +535,34 @@ select{
     }
     .gridd-p{
         font-size: 14px;
+    }
+    .writeup{
+        font-size: 18px;
+        color: black;
+       
+    }
+    .main-footer{
+        display: grid;
+        grid-template-columns: 150px 150px;
+        gap: 47px;
+        margin-left: 5%;
+        margin-top: 2em;
+    }
+    .footer-link{
+        margin-top: 10px;
+    }
+    .footer-head{
+        font-size: 26px;
+    }
+    .button{
+        margin-left: 67%;
+        
+    }
+    .footer-link > p{
+        font-size: 15px;
+    }
+    .footer-link > h3{
+        font-size: 18px;
     }
 }
 
