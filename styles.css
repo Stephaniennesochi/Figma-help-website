@@ -365,7 +365,7 @@ select{
     }
     .first-sect{
         background-color: #b2aae4;
-        padding: 1px 2px 12px;
+        padding: 1px 3px 12px;
         
     }
     .nav-btn{
@@ -567,10 +567,16 @@ select{
 }
 
 @media (min-width:600px){
-    
+    .nav-bar,.navvy{
+        display: flex;
+        gap: 20px;
+    }
 }
 @media (min-width: 768px){
-    
+    .nav-bar,.navvy{
+        display: flex;
+        gap: 20px;
+    }
 }
 @media (min-width:992px){
     .nav-bar,.navvy{
@@ -580,5 +586,5 @@ select{
    
 }
 @media (min-width:1200px){
-  
+    
 }
